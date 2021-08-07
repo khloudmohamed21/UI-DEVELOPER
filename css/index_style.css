@@ -1,0 +1,83 @@
+body
+{
+    font-family: 'segoe ui light';
+}
+.text-opacity
+{
+    color: rgba(255,255,255,.65)!important;
+}
+header h3
+{
+    position: relative;
+    transform: rotate(-90deg);
+    transform-origin: top right;
+}
+header h3::after
+{
+    content: "";
+    background-color: #fff;
+    width: 2.5rem;
+    height: 3px;
+    position: absolute;
+    top: 48%;
+    right: 104%;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #fff;
+    font-size: 0.9rem;
+}
+header
+{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.layer
+{
+    background-color: rgba(0,0,0,0.55);
+    height: 100%;
+}
+.text-mine
+{
+    color: #f5ba4b !important;
+}
+.card-info
+{
+    font-size: 0.85rem !important;
+}
+.services i
+{
+    color: #f5ba4b!important;
+    font-size: 1.2rem;
+}
+.heading 
+{
+    font-family: 'Open Sans',sans-serif;
+}
+.heading h2
+{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #f1f1f1;
+}
+.heading h3
+{
+    font-size: 2.5rem;
+    font-weight: 900;
+   
+
+}
+.about , .blog
+{
+    background-image: url(../images/light_dot.jpg);
+}
+
+.blog .card-icon  
+{
+    position: absolute;
+    bottom: 90%;
+    right: 20px;
+    box-shadow: 0 3px 20px rgba(0,0,0,.15);
+}
